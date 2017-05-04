@@ -1,0 +1,29 @@
+{
+  "name": "hello-jenkins",
+  "version": "0.0.1",
+  "description": "hello jenkins test app",
+  "main": "app.js",
+  "private": true,
+  "scripts": {
+    "start": "app.js"
+  },
+  "dependencies": {
+    "chalk": "1.1.x",
+    "express": "4.15.2",
+    "figlet": "1.2.x"
+  },
+  "devDependencies": {
+    "mocha": "3.3.0",
+    "supertest": "3.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/toddgower/hello-jenkins.git"
+  },
+  "author": "Todd Gower",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/toddgower/hello-jenkins/issues"
+  },
+  "homepage": "https://github.com/toddgower/hello-jenkins#readme"
+}
