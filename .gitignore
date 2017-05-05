@@ -8,6 +8,9 @@ pids
 *.pid
 *.seed
 
+# AWS Data
+EC2_info
+
 # Webstorm extensions
 .idea
 
