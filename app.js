@@ -14,7 +14,7 @@ console.log(figlet.textSync("Starting...", {
 }));
 
 app.get('/', (req, res) => {
-    res.send("hello world!");
+    res.send("Hello Jenkins!");
 });
 
 app.listen(process.env.PORT || 5000, () => {
