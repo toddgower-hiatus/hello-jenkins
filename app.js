@@ -18,7 +18,7 @@ app.get('/', (req, res) => {
 });
 
 app.listen(process.env.PORT || 5000, () => {
-    console.log(chalk.green(`Server is running on port ${process.env.PORT || 5000}`));
+    console.log(chalk.green(`AppServer is running on port ${process.env.PORT || 5000}`));
 });
 
 
