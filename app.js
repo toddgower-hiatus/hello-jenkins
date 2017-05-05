@@ -10,7 +10,7 @@ const figlet = require('figlet');
 const app = express();
 
 console.log(figlet.textSync("Starting...", {
-    font: "ogre"
+    font: "Ogre"
 }));
 
 app.get('/', (req, res) => {
